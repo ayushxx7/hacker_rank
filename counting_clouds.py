@@ -9,7 +9,7 @@ def jumpingOnClouds(c):
 
     while index < size:
         print(c[index])
-        if index + 2 < size and c[index] == 0:
+        if index + 2 < size and c[index] == 0: ## the logic is simple, you are going to jump either 1 step or 2 step, based on if 2 step jump is leading to a 0(safe) or 1. 
             index = index + 1
         step += 1
         index += 1
